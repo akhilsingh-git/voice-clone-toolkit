@@ -160,7 +160,7 @@ This toolkit auto-patches GPT-SoVITS for Mac. Without these patches, you'll hit 
 | Feature | ElevenLabs | This Toolkit |
 |---|---|---|
 | Monthly cost | $5-50/month | Free |
-| Voice quality | 9/10 | 7-8/10 |
+| Voice quality | 9/10 | 8/10 |
 | Data privacy | Their servers | 100% local |
 | Fine-tuning control | Limited | Full |
 | Latency (real-time) | ~1s | ~1.5s |
