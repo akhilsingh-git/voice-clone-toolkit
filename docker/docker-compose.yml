@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+  voice-api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "7861:7861"
+      - "9880:9880"
+    volumes:
+      - ../raw:/app/raw
+      - ../sliced:/app/sliced
+      - ../output:/app/output
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-data:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  ollama-data:

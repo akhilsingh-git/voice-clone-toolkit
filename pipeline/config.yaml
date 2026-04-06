@@ -1,0 +1,38 @@
+# Voice Clone Toolkit Configuration
+
+# Audio processing
+audio:
+  silence_threshold: -38    # dB, lower = more segments
+  min_segment_length: 3     # seconds
+  max_segment_length: 15    # seconds
+  language: en              # en, hi, zh, ja, ko
+
+# Training (settings for GPT-SoVITS WebUI)
+training:
+  sovits_epochs: 14
+  sovits_batch_size: 10
+  sovits_save_every: 2
+  gpt_epochs: 22
+  gpt_batch_size: 6
+  gpt_save_every: 4
+  version: v2Pro
+
+# Inference
+inference:
+  temperature: 0.6
+  top_k: 10
+  top_p: 1.0
+  speed: 1.0
+  repetition_penalty: 1.35
+
+# Reference clip (update after training with your best clip)
+reference:
+  audio: sliced/seg_0001.wav
+  text: "your reference transcription here"
+  lang: en
+
+# LLM (for voice agents)
+llm:
+  model: phi3:mini
+  temperature: 0.3
+  max_tokens: 40

@@ -1,0 +1,34 @@
+# Virtual environment
+.venv/
+venv/
+
+# GPT-SoVITS (cloned during setup)
+GPT-SoVITS/
+
+# Generated data
+raw/*.wav
+raw/*.mp3
+cleaned/
+sliced/
+dataset/
+output/
+logs/
+models/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

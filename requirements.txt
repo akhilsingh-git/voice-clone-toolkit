@@ -1,0 +1,30 @@
+# Audio processing
+demucs>=4.0
+faster-whisper>=1.0
+pydub>=0.25
+librosa>=0.10
+soundfile>=0.12
+scipy>=1.11
+
+# ML
+torch>=2.0
+torchaudio>=2.0
+torchcodec>=0.1
+
+# API & Web
+fastapi>=0.100
+uvicorn>=0.20
+aiohttp>=3.8
+gradio_client>=0.7
+requests>=2.31
+
+# NLP
+nltk>=3.8
+transformers>=4.44
+peft>=0.10
+
+# Utilities
+numpy>=1.24
+pydantic>=2.0
+huggingface_hub>=0.25,<0.30
+gradio>=4.44
