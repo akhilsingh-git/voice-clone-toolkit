@@ -4,7 +4,7 @@
 
 Train a custom TTS model from your own recordings and deploy it as a real-time voice agent — all on Apple Silicon.
 
-https://github.com/user-attachments/assets/demo-video-placeholder
+
 
 > ⚡ 37 min of audio → trained in ~1 hour → 1.5s response latency → real-time voice conversations
 
